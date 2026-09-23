@@ -1,3 +1,4 @@
 # FGB-DETR
-FGB-DETR 是一个以 RT-DETR 为基线、面向工业表面缺陷检测场景改进的实时端到端目标检测模型。针对缺陷目标尺度差异大、类间差异细微、背景纹理干扰强等问题，本文在骨干网络的特征提取入口与多尺度特征输出处引入改进设计，并在 Detector 保持端到端无 NMS 结构的前提下提升小目标与低对比度缺陷的检出能力。
-相关工作正在投稿阶段，因此不公开工作的关键数据集以及开源代码。为了显示工作的可靠性，我们采用了公开数据集进行验证，并提前公开FGB-DETR以及相关对比方法在公开数据集上的训练模型和对应训练权重。
+FGB-DETR is a real-time, end-to-end object detector built on the RT-DETR baseline and improved for industrial surface defect detection. To address the large scale variation among defect targets, subtle inter-class differences, and strong background texture interference, this work introduces improved designs at both the feature extraction stem of the backbone and the multi-scale feature outputs, thereby improving the detection of small and low-contrast defects while keeping the detector end-to-end and NMS-free. 
+
+As the related work is currently under submission/under review, the key datasets used in this work and the source code are not publicly released. To demonstrate the reliability of this work, we validate it on public datasets and release in advance the trained models and the corresponding weights of FGB-DETR and the compared methods on those public datasets.
